@@ -6,7 +6,7 @@ k = len(a)-1
 
 # pull all the 1s forward
 while(i<len(a)):
-    if a[j] == 1:
+    if a[j] == 1 and i > j:
         j+=1
     elif a[i]==1 and i > j:
         tmp = a[i]
