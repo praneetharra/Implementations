@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 def parkingSpot(carDimensions, parkingLot, luckySpot):
     result = True
     
@@ -59,3 +51,11 @@ def parkingSpot(carDimensions, parkingLot, luckySpot):
             else:
                 return False
             
+
+carDimensions = [2,1]
+parkingLot = [[1,1,1,1], 
+ [1,0,0,0], 
+ [1,0,1,0]]
+luckySpot = [1, 2, 1, 3]
+
+parkingSpot(carDimensions, parkingLot, luckySpot)
