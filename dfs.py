@@ -4,7 +4,7 @@
 4    for v in Adj[s]:
 5      if v not in parent:
 6        parent[v] = s
-7        DFS_Visit(Adj, v)
+7        DFS_Visit(Adj, v) 
 8  
 9  def DFS(V, Adj):
 10   for s in V:
