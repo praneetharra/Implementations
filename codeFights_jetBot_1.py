@@ -8,7 +8,7 @@ def packageBoxing(pkg, boxes):
     for i in boxes:
         pk = back_pkg[:]
         a = min(i)
-        if a>=min(pk):
+        if a>=min(pk): 
             del i[i.index(min(i))]
             del pk[pkg.index(min(pk))]
             b = min(i)
