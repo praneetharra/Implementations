@@ -9,7 +9,7 @@ def find(l,h,a,e):
             return int((l+h)/2)
             
         elif e<a[int((l+h)/2)] and e<=a[l]:
-            return find(int((l+h)/2),h,a,e)
+            return find(int((l+h)/2),h,a,e) 
 
         	
         elif e<a[int((l+h)/2)] and e>a[l]:
