@@ -7,7 +7,7 @@
 7    i = 1
 8    frontier = [s] # level i - 1
 9    while frontier:
-10     next = [] # level i
+10     next = [] # level i 
 11     for u in frontier:
 12       for v in Adj[u]: # edge from u to v
 13         if v not in level:
