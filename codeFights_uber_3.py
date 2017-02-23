@@ -6,7 +6,7 @@ def parkingSpot(carDimensions, parkingLot, luckySpot):
     lx = luckySpot[0]
     ly = luckySpot[1]
     rx = luckySpot[2]
-    ry = luckySpot[3]
+    ry = luckySpot[3] 
     
     if abs(lx-rx)+1 != width and abs(ly-ry)+1 != width:
         return False
