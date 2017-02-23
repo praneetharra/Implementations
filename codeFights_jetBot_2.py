@@ -10,7 +10,7 @@ def catalogUpdate(catalog, updates):
             j = updt.index(c)
             
             for k in range(1,len(updates[j])):
-                catalog[i].append(updates[j][k])
+                catalog[i].append(updates[j][k]) 
             temp = catalog[i][1:]
             temp.sort()
             del catalog[i][1:]
